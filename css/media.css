@@ -1,0 +1,203 @@
+@media (max-width:768px){
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+     font-weight: 100;
+      font-family:'Roboto';
+	  color:#000;
+}
+
+h1{
+  font-size: 24px;
+  color:#fff;
+}
+
+h2{
+  font-size:15px;
+}
+
+h3{
+  font-size: 14px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4{
+  font-size: 12px;
+}
+.btn-primary {
+	margin-top:5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px !important;
+  margin-bottom: 0;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+  background-image: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #0BA9F9;
+}
+.btn-lg{
+margin-top: 5px;
+margin-left: 10px;
+position: absolute;
+
+}
+p{
+     font-size: 15px;
+     font-weight: 100;
+}
+#header .navbar .container .navbar-header a{
+     margin-left: 20px;
+
+}
+
+.col-xs-12{
+     padding-left: 0;
+     padding-right: 0;
+
+}
+#gallery .effect-chico img,
+.gallery .effect-chico img{
+width: 100%;
+transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+}
+
+
+#gallery .effect-chico img:hover,
+.gallery .effect-chico img:hover{
+     opacity: 0.5;
+     -webkit-transform: scale(.9,.9);
+     transform: scale(.9,.9);
+
+}
+#about-slider .item p{
+     font-size: 18px;
+}
+#about-slider .item .form-inline .form-group .btn-lg {
+     font-size: 25px;
+     padding: 10px 10px;
+     width: 200px;
+}
+#about-slider .item h2 span{
+     font-size:25px;
+}
+#about-slider .item .carousel-caption {
+     bottom: 100px;
+}
+.parallax-window .sub-parallax .first1,
+.parallax-window .sub-parallax .first2{
+    width: 154.5px;
+}
+.parallax-window .sub-parallax .first1{
+     margin-left: -30px;
+}
+.parallax-window .col-md-6{
+     padding-top: 40px;
+}
+.sub-footer .form-inline .form-group button[type="purchase"]{
+     margin-left: -110px
+}
+.sub-footer .form-inline{
+     height: 100px;
+}
+}
+
+/************************
+ *******second Media*****
+ ***********************/
+@media (min-width:1100px){
+.col-lg-3{
+    padding-left: 0;
+    padding-right: 0;   
+}
+#gallery .effect-chico img,
+.gallery .effect-chico img{
+     width: 100%;
+     transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+}
+#gallery .effect-chico img:hover,
+.gallery .effect-chico img:hover{
+     opacity: 0.5;
+     -webkit-transform: scale(.9,.9);
+     transform: scale(.9,.9);
+}
+#about-slider .item .form-inline .form-group .btn-lg {
+     width: 300px;
+}
+.parallax-window  .sub-parallax .text-center .col-md-12 .bounceIn .form-inline .first1{
+     margin-left: -40px;
+}
+#contact .container .sub-footer {
+     height: 200px
+}
+.sub-footer .form-inline .form-group button[type="purchase"]{
+     margin-left:-224px
+}
+
+}
+/************************
+ *******third Media*****
+ ***********************/
+@media (min-width:769px) and (max-width:1099px){
+
+.col-sm-6{
+     padding-left: 0;
+     padding-right: 0;
+}
+#gallery .effect-chico img,
+.gallery .effect-chico img{
+     width: 100%;
+     transition: all 0.3s ease-in-out;
+     -moz-transition: all 0.3s ease-in-out;
+     -webkit-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+}
+
+#gallery .effect-chico img:hover,
+.gallery .effect-chico img:hover{
+     opacity: 0.5;
+     -webkit-transform: scale(.9,.9);
+     transform: scale(.9,.9);
+}
+#about-slider .item p{
+     font-size: 18px;
+}
+#about-slider .item .form-inline .form-group .btn-lg {
+     font-size: 25px;
+     padding: 10px 10px;
+     width: 200px;
+}
+#about-slider .item h2 span{
+     font-size:36px;
+}
+#about-slider .item .carousel-caption {
+      bottom: 57px;
+}
+
+.sub-footer .form-inline .form-group button[type="purchase"]{
+     margin-left: -200px;
+}
+
+}
